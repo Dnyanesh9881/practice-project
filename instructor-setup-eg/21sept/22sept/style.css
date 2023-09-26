@@ -1,0 +1,32 @@
+.grid-container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns:1fr 4fr 4fr;
+    grid-template-rows:1fr 8fr 1fr;
+    grid-template-areas: 
+    "h h h"
+    "m c d"
+    "f f f";
+
+}
+#grid-item-1{
+    background-color: red;
+   grid-area: h;
+}
+#grid-item-2{
+    background-color: rgb(62, 136, 49);
+    grid-area:m;
+}
+#grid-item-3{
+    background-color: rgb(205, 174, 90);
+    grid-area: c;
+}
+#grid-item-4{
+    background-color: rgb(245, 132, 13);
+   grid-area:f;
+}
+#grid-item-5{
+    background-color: rgb(212, 32, 155);
+   grid-area:d;
+}
